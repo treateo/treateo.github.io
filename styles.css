@@ -1,0 +1,22 @@
+body {
+  color:white;
+  background-color: #0f0f0f;
+  font-family:'Roboto';
+}
+p {
+	font-size: 300%; 
+	font-family:'Roboto';
+}
+
+#red { background-color: #f44141; }
+#orange { background-color: #f48342; }
+#yellow { background-color: #f4dc41; }
+#grey { background-color: #0f0f0f; }
+
+.section { 
+  position: relative; 
+  width: 99.22vw; 
+  height: 4vw; 
+  left: -15px;
+  top: -15px;
+}
