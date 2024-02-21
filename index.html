@@ -9,7 +9,15 @@
   <link href="img/leaf.png" rel="icon" type="image/x-icon">
 </head>
 <body>
-  <section>
+  <header id="navbar">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="leaf.html">Leaf</a></li>
+      </ul>
+    </nav>
+  </header>
     <div id="color-sections">
 	  <div class="section" id="yellow"></div>
       <div class="section" id="orange">
@@ -17,33 +25,31 @@
       </div>
       <div class="section" id="red"></div>
     </div>
-    
     <div class="heading">
       <h1>The Leaves</h1>
     </div>
-
-   <div class="centered">
-      <img width="20%" src="img/leaf.png" alt="leaf" usemap="#leafmap">
-   </div>
-    
-    <p>Leaves are <em>very cool</em>; they have green bits.</p>
-    <map name="leafmap">
-      <area shape="circle" coords="130,150,100" href="img/leaf.html">
-    </map>
-    
+    <div class="centered">
+      <a href="leaf.html">
+        <img width="20%" src="img/leaf.png"><br>
+      </a>
+    </div>
+    <div class="text">
+      <div>Leaves are <em>very cool</em>; they have green bits.</div>
+    </div> 
     <div id="color-sections">
       <div class="section" id="red"></div>
       <div class="section" id="orange">
-        <span class="section-text">The other(less cool) leaves</span>
+        <span class="section-text">the leaves</span>
       </div>
       <div class="section" id="yellow"></div>
     </div>
-
     <div class="centered">
-      <img width="40%" src="img/leaf.png" alt="leaf" usemap="#leafmap"><br>
+      <a href="leaf.html">
+        <img width="40%" src="img/leaf.png"><br>
+      </a>
     </div>
-
-    <p>Leaf has the leafy bit</p>
-  </section>
+    <div class="text">
+      <p>Leaf has the leafy bit</p>
+    </div>
 </body>
 </html>
