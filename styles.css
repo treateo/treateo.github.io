@@ -24,7 +24,7 @@ p {
 #grey {background-color: #0f0f0f;}
 
 #color-sections > .section > .section-text {
-  position: relative;
+  position: absolute;
   left: 50%;
   transform: translate(-50%, -30%);
   font-size: 8vw; /* Set font size relative to the viewport width */
